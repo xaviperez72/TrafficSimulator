@@ -1,0 +1,3 @@
+./home/xavi/opencv_build/opencv/build/unix-install/OpenCVConfig.cmake
+./home/xavi/opencv_build/opencv/build/OpenCVConfig.cmake
+

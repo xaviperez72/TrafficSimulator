@@ -4,8 +4,11 @@
 #include <vector>
 #include <thread>
 #include <mutex>
+#include <string>
 
-enum ObjectType
+std::string time_in_HH_MM_SS_MMM();
+
+enum class ObjectType
 {
     noObject,
     objectVehicle,

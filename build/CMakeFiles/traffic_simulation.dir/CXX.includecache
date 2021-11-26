@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xavi/udacity/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.cpp
+algorithm
+-
+iostream
+-
+chrono
+-
+future
+-
+ctime
+-
+iomanip
+-
+sstream
+-
+TrafficObject.h
+/home/xavi/udacity/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
+
+/home/xavi/udacity/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
+vector
+-
+thread
+-
+mutex
+-
+string
+-
+

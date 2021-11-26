@@ -33,7 +33,7 @@ void Vehicle::drive()
 {
     // print id of the current thread
     std::unique_lock<std::mutex> lck(_mtx);
-    std::cout << "Vehicle #" << _id << "::drive: thread id = " << std::this_thread::get_id() << std::endl;
+    std::cout << time_in_HH_MM_SS_MMM() << "Vehicle #" << _id << std::endl;
     lck.unlock();
 
     // initalize variables
